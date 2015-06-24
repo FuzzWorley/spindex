@@ -36,11 +36,6 @@
             <a href="#" data-toggle2="#twitter">Twitter</a>
           </i>
         </li>
-        <li class="<%= is_active?(artist_path) %>" id="FB-comments-btn">
-          <i class="fa  fa-arrow-circle-o-right">
-            <a href="#" data-toggle2="#FB-comments">Discussion</a>
-          </i>
-        </li>
       </ul>
     </div>
   </div>
@@ -176,12 +171,6 @@
       </div>
     </div>
     <% end %>
-
-    <div id="fb-root"></div>
-    <div id="FB-comments">
-      <div class="fb-comments" data-href="http://localhost:3000/artists/<%= @artist.id %>"  data-version="v2.3" data-numposts="5" data-colorscheme="light">
-      </div>
-    </div>
   </div>
 </div>
 </div>
